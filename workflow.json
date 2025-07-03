@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "11f16a82-e438-4819-a64a-c9fec6b03e73",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -420,
+        -120
+      ],
+      "id": "3fcbee2f-3396-41af-9bef-a38d30616715",
+      "name": "Webhook",
+      "webhookId": "11f16a82-e438-4819-a64a-c9fec6b03e73"
+    },
+    {
+      "parameters": {
+        "tableId": "something",
+        "fieldsUi": {
+          "fieldValues": [
+            {
+              "fieldId": "name",
+              "fieldValue": "={{ $json.body.name }}"
+            },
+            {
+              "fieldId": "age",
+              "fieldValue": "={{ $json.body.age }}"
+            },
+            {
+              "fieldId": "description",
+              "fieldValue": "={{ $json.body.description }}"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        -140,
+        0
+      ],
+      "id": "1d680d6b-67fe-47d9-90e8-0f248d0c0931",
+      "name": "Create a row",
+      "credentials": {
+        "supabaseApi": {
+          "id": "MW0idVcrwRR0UGxj",
+          "name": "Supabase account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [
+        380,
+        0
+      ],
+      "id": "9694547f-1c13-4c12-bd24-0f00c34df59c",
+      "name": "Respond Autofill"
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "tableId": "something",
+        "limit": 1
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        120,
+        -160
+      ],
+      "id": "4ff4972e-d6d9-4e71-9f70-acecbc1aa491",
+      "name": "Supabase Query",
+      "credentials": {
+        "supabaseApi": {
+          "id": "MW0idVcrwRR0UGxj",
+          "name": "Supabase account 2"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Create a row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create a row": {
+      "main": [
+        [
+          {
+            "node": "Supabase Query",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Supabase Query": {
+      "main": [
+        [
+          {
+            "node": "Respond Autofill",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "558d88703fb65b2d0e44613bc35916258b0f0bf983c5d4730c00c424b77ca36a"
+  }
+}

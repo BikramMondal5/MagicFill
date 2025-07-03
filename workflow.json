@@ -10,8 +10,8 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
       "position": [
-        -420,
-        -120
+        -300,
+        -200
       ],
       "id": "3fcbee2f-3396-41af-9bef-a38d30616715",
       "name": "Webhook",
@@ -40,8 +40,8 @@
       "type": "n8n-nodes-base.supabase",
       "typeVersion": 1,
       "position": [
-        -140,
-        0
+        -20,
+        -80
       ],
       "id": "1d680d6b-67fe-47d9-90e8-0f248d0c0931",
       "name": "Create a row",
@@ -59,32 +59,11 @@
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1,
       "position": [
-        380,
-        0
+        240,
+        -180
       ],
       "id": "9694547f-1c13-4c12-bd24-0f00c34df59c",
       "name": "Respond Autofill"
-    },
-    {
-      "parameters": {
-        "operation": "getAll",
-        "tableId": "something",
-        "limit": 1
-      },
-      "type": "n8n-nodes-base.supabase",
-      "typeVersion": 1,
-      "position": [
-        120,
-        -160
-      ],
-      "id": "4ff4972e-d6d9-4e71-9f70-acecbc1aa491",
-      "name": "Supabase Query",
-      "credentials": {
-        "supabaseApi": {
-          "id": "MW0idVcrwRR0UGxj",
-          "name": "Supabase account 2"
-        }
-      }
     }
   ],
   "connections": {
@@ -100,17 +79,6 @@
       ]
     },
     "Create a row": {
-      "main": [
-        [
-          {
-            "node": "Supabase Query",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Supabase Query": {
       "main": [
         [
           {

@@ -1,7 +1,7 @@
 # 🪄📄 MagicFill – “Your Forms, Filled by Magic”
 
 ![Workflow](screenshot.png)
-MagicFill is an AI-powered platform that simplifies form-filling for millions in India, especially in rural and underserved areas. It ensures inclusive access to critical services by eliminating barriers caused by complex, form-based processes.
+MagicFill is an AI-powered platform that simplifies form-filling for millions in India, especially in rural and underserved areas. It helps users to automatically filled the application form, ensures inclusive access to critical services by eliminating barriers caused by complex, form-based processes.
 
 ## ❓ Problem Statement
 Millions in India, particularly in rural and underserved urban areas, face barriers to accessing essential services due to complex, form-based processes. These challenges include:

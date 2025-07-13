@@ -88,10 +88,10 @@ Follow these steps to use MagicFill:
 2. If the document is invalid, you will be prompted to re-upload a valid document.
 
 ### 📝 Step 3: Extract Data from the Document
-1. Once the document is validated, relevant data (e.g., Name, Address, Email, Education, Skills) will be extracted using AI.
+1. Once the document is validated, relevant data (e.g., Name, Address, Email etc.) will be extracted using AI.
 
 ### 🤖 Step 4: Application Suitability Agent
-1. The extracted data will be processed to generate a structured output, including fields like Name, Address, Email, Telephone, Education, Skills, and Cover Letter.
+1. The extracted data will be processed to generate a structured output, including fields like Name, Address, Email, Telephone, Education etc.
 
 ### 💾 Step 5: Save Data to Airtable
 1. The structured data will be saved to an Airtable database for tracking and management.
@@ -102,14 +102,14 @@ Follow these steps to use MagicFill:
 ### 🖊️ Step 7: Review and Amend the Application Form
 1. The application form will be pre-filled with the extracted data.
 2. Review the pre-filled fields and make any necessary amendments.
-3. Fields include Name, Address, Email, Telephone, Education, Skills, Years of Experience, and Cover Letter.
+3. Fields include Name, Address, Email, Telephone, Education, Skills, Years of Experience.
 
 ### ✅ Step 8: Submit the Application
 1. Once satisfied with the application form, click **Submit** to complete the process.
 
 ### 🎉 Step 9: Form Success
 1. A success message will be displayed, confirming the completion of the application process.
-2. Your information will be securely stored and reviewed by the relevant team.
+2. Your information will be securely stored to Airtable.
 
 Enjoy the seamless and efficient form-filling experience with MagicFill!
 

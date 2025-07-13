@@ -39,6 +39,10 @@ MagicFill addresses these challenges by providing:
 ## 🛠️ Workflow
 The MagicFill project workflow is designed to streamline the form-filling process using advanced AI and automation tools. Below is the detailed workflow:
 
+See the video here: https://www.youtube.com/watch?v=4ybHfG3jo4w
+
+Or,
+
 1. 📤 **Step 1 of 2: Submit Your Document**:
    - Users upload their documents (e.g., Aadhaar Card) in PDF format.
    - The form ensures that only valid, password-free PDFs are accepted.

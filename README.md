@@ -75,7 +75,42 @@ The MagicFill project workflow is designed to streamline the form-filling proces
 
 ## 🚀 How to Use
 
+Follow these steps to use MagicFill:
 
+### Step 1: Submit Your Document
+1. Visit the MagicFill platform and navigate to the **Step 1 of 2: Submit Your Document** form.
+2. Upload your document (e.g., CV or Aadhaar Card) in **PDF format**. Ensure the document is password-free.
+3. Acknowledge the terms and conditions and click **Submit**.
+
+### Step 2: Document Classification
+1. The uploaded document will be classified using AI to determine if it is valid or invalid.
+2. If the document is invalid, you will be prompted to re-upload a valid document.
+
+### Step 3: Extract Data from the Document
+1. Once the document is validated, relevant data (e.g., Name, Address, Email, Education, Skills) will be extracted using AI.
+
+### Step 4: Application Suitability Agent
+1. The extracted data will be processed to generate a structured output, including fields like Name, Address, Email, Telephone, Education, Skills, and Cover Letter.
+
+### Step 5: Save Data to Airtable
+1. The structured data will be saved to an Airtable database for tracking and management.
+
+### Step 6: Redirect to Step 2 of 2
+1. After saving the data, you will be redirected to **Step 2 of 2: Application Form**.
+
+### Step 7: Review and Amend the Application Form
+1. The application form will be pre-filled with the extracted data.
+2. Review the pre-filled fields and make any necessary amendments.
+3. Fields include Name, Address, Email, Telephone, Education, Skills, Years of Experience, and Cover Letter.
+
+### Step 8: Submit the Application
+1. Once satisfied with the application form, click **Submit** to complete the process.
+
+### Step 9: Form Success
+1. A success message will be displayed, confirming the completion of the application process.
+2. Your information will be securely stored and reviewed by the relevant team.
+
+Enjoy the seamless and efficient form-filling experience with MagicFill!
 
 ## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.

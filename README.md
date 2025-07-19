@@ -117,5 +117,8 @@ Follow these steps to use MagicFill:
 
 Enjoy the seamless and efficient form-filling experience with MagicFill!
 
+## 🤝 Contributing
+Present Contributors(In alphabetical order): Ananyo Dasgupta, Ankita Patra
+
 ## 📜 License
 This project is licensed under the `MIT License`.
